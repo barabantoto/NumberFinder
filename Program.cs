@@ -9,7 +9,7 @@ namespace Поиск_числа
             Console.Write("The number we are looking for (it must be greater than 0): ");
             int until = int.Parse(Console.ReadLine());
             if (until > 0)
-                Console.WriteLine("Yeeees your number is: " + FindNumber(0, until, ((int)until / 2)));
+                Console.WriteLine("Yeeees your number is: " + FindNumber(0, until, ((int)until / 2) + "))"));
 
             else
                 Console.WriteLine("It was offensive :(((((((");
