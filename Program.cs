@@ -21,7 +21,7 @@ namespace Поиск_числа
         {
             if (from == until)
             {
-                Console.Write("Your number is " + until + "?" + "(write please + or - ): ");
+                Console.Write("Your number is " + until + "?" + "(please write  + or - ): ");
                 string yesOrNo = Console.ReadLine();
                 if (yesOrNo.Length > 0 && yesOrNo[0] == '+')
                         return until;
@@ -30,7 +30,7 @@ namespace Поиск_числа
             }
             else
             {
-                Console.Write("This number is less or equal to " + halfNum + " (write please + or - ):  ");
+                Console.Write("This number is less or equal to " + halfNum + " (please write  + or - ):  ");
                 string yesOrNo = Console.ReadLine();
 
                 if (yesOrNo[0] == '+')
