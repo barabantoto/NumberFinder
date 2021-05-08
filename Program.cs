@@ -30,7 +30,7 @@ namespace Поиск_числа
             }
             else
             {
-                Console.Write("This number less or equal to " + halfNum + " (write please + or - ):  ");
+                Console.Write("This number is less or equal to " + halfNum + " (write please + or - ):  ");
                 string yesOrNo = Console.ReadLine();
 
                 if (yesOrNo[0] == '+')
